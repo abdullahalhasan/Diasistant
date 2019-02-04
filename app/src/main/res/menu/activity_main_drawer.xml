@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_diabetic_24dp"
+            android:title="হোম" />
+
+        <item
+            android:id="@+id/nav_about_diabetes"
+            android:icon="@drawable/ic_diabetic_24dp"
+            android:title="ডায়াবেটিস কি?" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news_24dp"
+            android:title="প্রবন্ধ পড়ুন" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_notifications_24dp"
+            android:title="ডায়াবেটিস চেক করুন" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_sponsors_24dp"
+            android:title="ঔষধ শিডিউল" />
+
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/ic_reminder_24dp"
+            android:title="স্পন্সরস" />
+       <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login_24dp"
+            android:title="লগ ইন" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="অন্যজনকে অ্যাপ দিন" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_share_24dp"
+                android:title="অ্যাপ কেমন লেগেছে?" />
+            <item
+                android:id="@+id/nav_app"
+                android:icon="@drawable/ic_about_24dp"
+                android:title="অ্যাপ সম্পর্কে জানুন" />
+        </menu>
+    </item>
+
+</menu>
